@@ -3,7 +3,7 @@ BEGIN {
   $App::Ttyrec::AUTHORITY = 'cpan:DOY';
 }
 {
-  $App::Ttyrec::VERSION = '0.01';
+  $App::Ttyrec::VERSION = '0.02';
 }
 use Moose;
 # ABSTRACT: record interactive terminal sessions
@@ -55,6 +55,7 @@ no Moose;
 1;
 
 __END__
+
 =pod
 
 =head1 NAME
@@ -63,7 +64,7 @@ App::Ttyrec - record interactive terminal sessions
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
@@ -108,9 +109,8 @@ by C<ttyrec_file>.
 
 No known bugs.
 
-Please report any bugs through RT: email
-C<bug-app-ttyrec at rt.cpan.org>, or browse to
-L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=App-Ttyrec>.
+Please report any bugs to GitHub Issues at
+L<https://github.com/doy/app-ttyrec/issues>.
 
 =head1 SEE ALSO
 
@@ -130,21 +130,21 @@ You can also look for information at:
 
 =over 4
 
-=item * AnnoCPAN: Annotated CPAN documentation
+=item * MetaCPAN
 
-L<http://annocpan.org/dist/App-Ttyrec>
+L<https://metacpan.org/release/App-Ttyrec>
 
-=item * CPAN Ratings
+=item * Github
 
-L<http://cpanratings.perl.org/d/App-Ttyrec>
+L<https://github.com/doy/app-ttyrec>
 
 =item * RT: CPAN's request tracker
 
 L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=App-Ttyrec>
 
-=item * Search CPAN
+=item * CPAN Ratings
 
-L<http://search.cpan.org/dist/App-Ttyrec>
+L<http://cpanratings.perl.org/d/App-Ttyrec>
 
 =back
 
@@ -152,14 +152,14 @@ L<http://search.cpan.org/dist/App-Ttyrec>
 
 =head1 AUTHOR
 
-Jesse Luehrs <doy at tozt dot net>
+Jesse Luehrs <doy@tozt.net>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2012 by Jesse Luehrs.
+This software is Copyright (c) 2014 by Jesse Luehrs.
 
-This is free software; you can redistribute it and/or modify it under
-the same terms as the Perl 5 programming language system itself.
+This is free software, licensed under:
+
+  The MIT (X11) License
 
 =cut
-

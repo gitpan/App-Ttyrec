@@ -1,4 +1,4 @@
-#!/usr/bin/env perl
+#!perl
 use strict;
 use warnings;
 # ABSTRACT: record interactive terminal sessions
@@ -35,8 +35,8 @@ App::Ttyrec->new(
     append      => $append,
 )->run($cmd);
 
-
 __END__
+
 =pod
 
 =head1 NAME
@@ -45,7 +45,7 @@ ttyrec - record interactive terminal sessions
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
@@ -91,14 +91,14 @@ L<http://0xcc.net/ttyrec/index.html.en>
 
 =head1 AUTHOR
 
-Jesse Luehrs <doy at tozt dot net>
+Jesse Luehrs <doy@tozt.net>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2012 by Jesse Luehrs.
+This software is Copyright (c) 2014 by Jesse Luehrs.
 
-This is free software; you can redistribute it and/or modify it under
-the same terms as the Perl 5 programming language system itself.
+This is free software, licensed under:
+
+  The MIT (X11) License
 
 =cut
-
